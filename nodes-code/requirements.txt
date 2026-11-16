@@ -1,0 +1,6 @@
+# Herramientas para el nodo hardware (ESP32 + MicroPython)
+esptool>=4.7        # flashear MicroPython en el ESP32
+mpremote>=1.22      # subir y ejecutar los .py en la placa
+
+# Nodo simulado (corre en el PC)
+paho-mqtt>=2.0      # cliente MQTT para publicar al bróker y recibir actuaciones
