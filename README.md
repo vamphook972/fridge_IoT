@@ -28,11 +28,8 @@ mpremote mip install umqtt.simple   # con el ESP32 conectado
    (Para que arranque solo: `mpremote cp nodo1-nevera-iot.py :main.py`)
 
    > si genera problemas probar:
-   ```
     ```bash
     mpremote connect /dev/tty.usbserial-0001 sleep 2 run nodo1-nevera-iot.py
-    ```
-    ```
     ```
 
 3. **Nodo 2 – Simulado**
